@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Мастерская Съедобных букетов</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="https://api-maps.yandex.ru/2.1/?apikey=be34b2be-bf13-4fbc-a23d-8075dc396711&lang=ru_RU"
+    type="text/javascript"></script>
+  <script src="./script.js" async></script>
+</head>
+
+<body>
+  <div class="container">
+    <header class="header">
+      <nav class="header__navigation">
+        <ul class="navigation navigation__list">
+          <li class="navigation__item navigation__item_logo">
+            <span class="navigation__number">Мастерская Букетов</span>
+          </li>
+          <li class="navigation__item">
+            <a href="./index.html" class="navigation__link" title="Главная страница">Главная</a>
+          </li>
+          <li class="navigation__item">
+            <a href="./catalog.html" class="navigation__link" title="Все наши услуги">Услуги</a>
+          </li>
+          <li class="navigation__item">
+            <a href="" class="navigation__link" title="Контакты">Контакты</a>
+          </li>
+          <li class="navigation__item">
+            <a href="tel:89775976737" class="navigation__link navigation__link_number"
+              title="Позвонить нам">8(977)597-67-37</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="welcome">
+        <div class="welcome__container">
+          <div class="welcome__text">
+            <h1 class="welcome__title">Мастерская Съедобных букетов</h1>
+            <h2 class="welcome__name">Татьяна Сычёва</h2>
+            <p class="welcome__description">Мы не создаем букеты, мы создаем эмоции для Вас и Ваших близких!</p>
+            <a href="#about" class="welcome__more btn">Подробнее</a>
+          </div>
+          <img src="./img/welcome_img.jpg" alt="Фотография сладкого букета" class="welcome__image">
+        </div>
+      </section>
+      <div class="borderLine"></div>
+      <section class="services">
+        <h2 class="services__title title">Наши <span class="title_italic">услуги</span></h2>
+        <ul class="services__list">
+          <li class="services__item service">
+            <div class="service__bg"></div>
+            <div class="service__text">
+              <h3 class="service__title">Изготовление вкусных букетов</h3>
+              <span class="service__price">10.000</span>
+            </div>
+          </li>
+          <li class="service__item service">
+            <div class="service__bg"></div>
+            <div class="service__text">
+              <h3 class="service__title">Мастер-классы по изготовлению свечей, вкусных букетов</h3>
+              <span class="service__price">20.000</span>
+            </div>
+          </li>
+          <li class="service__item service">
+            <div class="service__bg"></div>
+            <div class="service__text">
+              <h3 class="service__title">Новогодние композиции
+              </h3>
+              <span class="service__price">5.000</span>
+            </div>
+          </li>
+        </ul>
+        <a href="./catalog.html" class="services__more btn" title="Посмотреть все наши услуги">Больше наших услуг</a>
+      </section>
+      <div class="borderLine"></div>
+      <section class="about">
+        <h2 class="about__title title">О <span class="title_italic">нашей</span> работе</h2>
+        <div class="about__container">
+          <img src="./img/avatar.jpeg" alt="Фотография Татьяны Сычёвой" class="about__avatar">
+          <div class="about__description">
+            <p>Мы создаем настроение и оригинальные подарки уже несколько лет. Мы порадуем вас отличными фруктовыми,
+              сладкими или сырными букетами букетами, которые гарантируют Wow-эффект. Все наши букету имеют уникальный
+              стиль, который гарантировано доставит удовольствие.</p>
+            <p>Работаем мы в городе Балашиха и имеем более 100 постоянных клиентов, многие из которых
+              обращаются к нам уже не в первый раз.</p>
+          </div>
+        </div>
+      </section>
+      <div class="borderLine"></div>
+      <section class="portfolio">
+        <h2 class="portfolio__title title">Примеры <span class="title_italic">работ</span></h2>
+        <ul class="portfolio__list">
+          <li class="portfolio__item">
+            <img src="./img/works/image1.jpeg" alt="Фотография букета" class="portfolio__image">
+          </li>
+          <li class="portfolio__item">
+            <img src="./img/works/image2.jpeg" alt="Фотография букета" class="portfolio__image">
+          </li>
+          <li class="portfolio__item">
+            <img src="./img/works/image3.jpeg" alt="Фотография букета" class="portfolio__image">
+          </li>
+          <li class="portfolio__item">
+            <img src="./img/works/image4.jpeg" alt="Фотография букета" class="portfolio__image">
+          </li>
+          <li class="portfolio__item">
+            <img src="./img/works/image5.jpeg" alt="Фотография букета" class="portfolio__image">
+          </li>
+          <li class="portfolio__item">
+            <img src="./img/works/image6.jpeg" alt="Фотография букета" class="portfolio__image">
+          </li>
+          <li class="portfolio__item">
+            <img src="./img/works/image7.jpeg" alt="Фотография букета" class="portfolio__image">
+          </li>
+          <li class="portfolio__item">
+            <img src="./img/works/image8.jpeg" alt="Фотография букета" class="portfolio__image">
+          </li>
+        </ul>
+      </section>
+      <div class="borderLine"></div>
+      <section class="feedback">
+        <h2 class="feedback__title title">Отзывы <span class="title_italic">наших</span> клиентов</h2>
+        <ul class="feedback__list">
+          <li class="feedback__item">
+            <img src="./img/def_avatar.svg" alt="Фотография клиента" class="feedback__photo">
+            <p class="feedback__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus asperiores
+              omnis, facilis dignissimos laboriosam quasi cupiditate, corrupti quibusdam nulla voluptatibus aspernatur a
+              saepe! Earum nam eius maxime omnis. Necessitatibus, molestiae.</p>
+            </img>
+          </li>
+          <li class="feedback__item">
+            <img src="./img/def_avatar.svg" alt="Фотография клиента" class="feedback__photo">
+            <p class="feedback__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum minus deleniti
+              architecto dolor. Earum minima facere dignissimos vero officiis libero nobis dolorum, sapiente neque amet
+              repellendus, pariatur, quia numquam quas?</p>
+            </img>
+          </li>
+          <li class="feedback__item">
+            <img src="./img/def_avatar.svg" alt="Фотография клиента" class="feedback__photo">
+            <p class="feedback__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat optio rem
+              voluptates totam harum. Vel officiis, dolorum numquam iure recusandae vitae, omnis ad eum reiciendis
+              officia repellendus. Labore, rerum tempore.</p>
+            </img>
+          </li>
+        </ul>
+      </section>
+      <div class="borderLine"></div>
+    </main>
+    <footer>
+      <section class="contacts">
+        <h2 class="contacts__title title">Контакты</h2>
+        <div class="contacts__container">
+          <ul class="contacts__list">
+            <li class="contacts__item item">
+              <h3 class="item__title">Телефон</h3>
+              8(977)597-67-37
+            </li>
+            <li class="contacts__item item">
+              <h3 class="item__title">Социальные сети</h3>
+              @tatka306
+            </li>
+            <li class="contacts__item item">
+              <h3 class="item__title">Адрес</h3>
+              Главная ул., 22Б, микрорайон Ольгино, Балашиха
+            </li>
+            <li class="contacts__item item">
+              <h3 class="item__title">График работы</h3>
+              <table class="timeTable">
+                <thead class="timeTable__head">
+                  <tr class="timeTable__row">
+                    <th class="timeTable__data timeTable__data_head">День недели</th>
+                    <th class="timeTable__data timeTable__data_head">Время работы</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="timeTable__row">
+                    <td class="timeTable__data ">Понедельник</td>
+                    <td class="timeTable__data">10:00 - 18:00</td>
+                  </tr>
+                  <tr class="timeTable__row">
+                    <td class="timeTable__data">Вторник</td>
+                    <td class="timeTable__data">10:00 - 18:00</td>
+                  </tr>
+                  <tr class="timeTable__row">
+                    <td class="timeTable__data">Среда</td>
+                    <td class="timeTable__data">10:00 - 18:00</td>
+                  </tr>
+                  <tr class="timeTable__row">
+                    <td class="timeTable__data">Четверг</td>
+                    <td class="timeTable__data">10:00 - 18:00</td>
+                  </tr>
+                  <tr class="timeTable__row">
+                    <td class="timeTable__data">Пятница</td>
+                    <td class="timeTable__data">10:00 - 18:00</td>
+                  </tr>
+                  <tr class="timeTable__row">
+                    <td class="timeTable__data">Сб, Вс</td>
+                    <td class="timeTable__data timeTable__data_weekend">Выходной</td>
+                  </tr>
+                </tbody>
+              </table>
+            </li>
+          </ul>
+          <div class="contacts__map" id="map">
+          </div>
+        </div>
+      </section>
+    </footer>
+  </div>
+</body>
+
+</html>

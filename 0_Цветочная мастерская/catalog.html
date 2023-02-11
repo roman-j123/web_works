@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Мастерская Съедобных букетов</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="https://api-maps.yandex.ru/2.1/?apikey=be34b2be-bf13-4fbc-a23d-8075dc396711&lang=ru_RU"
+    type="text/javascript"></script>
+  <script src="./script.js" async></script>
+</head>
+
+<body>
+  <div class="container">
+    <header class="header">
+      <nav class="header__navigation">
+        <ul class="navigation navigation__list">
+          <li class="navigation__item navigation__item_logo">
+            <span class="navigation__number">Мастерская Букетов</span>
+          </li>
+          <li class="navigation__item">
+            <a href="./index.html" class="navigation__link" title="Главная страница">Главная</a>
+          </li>
+          <li class="navigation__item">
+            <a href="./catalog.html" class="navigation__link" title="Все наши услуги">Услуги</a>
+          </li>
+          <li class="navigation__item">
+            <a href="" class="navigation__link" title="Контакты">Контакты</a>
+          </li>
+          <li class="navigation__item">
+            <a href="tel:89775976737" class="navigation__link navigation__link_number"
+              title="Позвонить нам">8(977)597-67-37</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+
+      <section class="catalog">
+        <h1 class="catalog__title title">Наши услуги</h1>
+        <ul class="catalog__list">
+          <li class="catalog__item product">
+            <div class="product__content">
+              <h2 class="product__title">Съедобные букеты</h2>
+              <span class="product__price">1.000</span>
+            </div>
+            <img src="" alt="Фотография съедобных букетов" class="product__img">
+          </li>
+          <li class="catalog__item product">
+            <div class="product__content">
+              <h2 class="product__title">Мастер-классы</h2>
+              <span class="product__price">1.000</span>
+            </div>
+            <img src="./img/works/catalog_5.jpeg" alt="Фотография мастер классов" class="product__img">
+          </li>
+          <li class="catalog__item product">
+            <div class="product__content">
+              <h2 class="product__title">Новогодние композиции</h2>
+              <span class="product__price">1.000</span>
+            </div>
+            <img src="./img/works/catalog_2.jpeg" alt="Фотография Новогодней композиции" class="product__img">
+          </li>
+          <li class="catalog__item product">
+            <div class="product__content">
+              <h2 class="product__title">Воздушные шары</h2>
+              <span class="product__price">1.000</span>
+            </div>
+            <img src="./img/works/catalog_1.jpeg" alt="Фотография воздушных шаров" class="product__img">
+          </li>
+          <li class="catalog__item product">
+            <div class="product__content">
+              <h2 class="product__title">Коробки под подарки</h2>
+              <span class="product__price">1.000</span>
+            </div>
+            <img src="" alt="Фотография подарочных коробок" class="product__img">
+          </li>
+          <li class="catalog__item product">
+            <div class="product__content">
+              <h2 class="product__title">Мягкие игрушки</h2>
+              <span class="product__price">1.000</span>
+            </div>
+            <img src="./img/works/catalog_3.jpeg" alt="Фотография мягких игрушек" class="product__img">
+          </li>
+          <li class="catalog__item product">
+            <div class="product__content">
+              <h2 class="product__title">Сладости ручной работы</h2>
+              <span class="product__price">1.000</span>
+            </div>
+            <img src="./img/works/catalog_6.jpeg" alt="Фотография зефира и бизе ручной работы" class="product__img">
+          </li>
+          <li class="catalog__item product">
+            <div class="product__content">
+              <h2 class="product__title">Упаковка подарков</h2>
+              <span class="product__price">1.000</span>
+            </div>
+            <img src="./img/works/catalog_4.jpeg" alt="Фотография упаковки подарков" class="product__img">
+          </li>
+        </ul>
+      </section>
+      <div class="borderLine"></div>
+    </main>
+    <footer>
+      <section class="contacts">
+        <h2 class="contacts__title title">Контакты</h2>
+        <div class="contacts__container">
+          <ul class="contacts__list">
+            <li class="contacts__item item">
+              <h3 class="item__title">Телефон</h3>
+              8(977)597-67-37
+            </li>
+            <li class="contacts__item item">
+              <h3 class="item__title">Социальные сети</h3>
+              @tatka306
+            </li>
+            <li class="contacts__item item">
+              <h3 class="item__title">Адрес</h3>
+              Главная ул., 22Б, микрорайон Ольгино, Балашиха
+            </li>
+            <li class="contacts__item item">
+              <h3 class="item__title">График работы</h3>
+              <table class="timeTable">
+                <thead class="timeTable__head">
+                  <tr class="timeTable__row">
+                    <th class="timeTable__data timeTable__data_head">День недели</th>
+                    <th class="timeTable__data timeTable__data_head">Время работы</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="timeTable__row">
+                    <td class="timeTable__data ">Понедельник</td>
+                    <td class="timeTable__data">10:00 - 18:00</td>
+                  </tr>
+                  <tr class="timeTable__row">
+                    <td class="timeTable__data">Вторник</td>
+                    <td class="timeTable__data">10:00 - 18:00</td>
+                  </tr>
+                  <tr class="timeTable__row">
+                    <td class="timeTable__data">Среда</td>
+                    <td class="timeTable__data">10:00 - 18:00</td>
+                  </tr>
+                  <tr class="timeTable__row">
+                    <td class="timeTable__data">Четверг</td>
+                    <td class="timeTable__data">10:00 - 18:00</td>
+                  </tr>
+                  <tr class="timeTable__row">
+                    <td class="timeTable__data">Пятница</td>
+                    <td class="timeTable__data">10:00 - 18:00</td>
+                  </tr>
+                  <tr class="timeTable__row">
+                    <td class="timeTable__data">Сб, Вс</td>
+                    <td class="timeTable__data timeTable__data_weekend">Выходной</td>
+                  </tr>
+                </tbody>
+              </table>
+            </li>
+          </ul>
+          <div class="contacts__map" id="map">
+          </div>
+        </div>
+      </section>
+    </footer>
+  </div>
+</body>
+
+</html>
